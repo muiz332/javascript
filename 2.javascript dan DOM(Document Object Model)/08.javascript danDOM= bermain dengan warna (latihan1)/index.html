@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>javascript dan DOM: bermain dengan warna</title>
+        <style>
+            body{text-align: center;}
+            .biru-muda{background-color: lightblue;}
+            .kotak{
+                width: 25px;
+                height: 25px;
+                margin: 10px auto;
+            }
+            .merah{background-color: red;}
+            .hijau{background-color: green;}
+            .biru{background-color: blue;}
+            html, body{height: 100%;}
+            
+        </style>
+    </head>
+    <body>
+        <h1>Bermain dengan warna</h1>
+    
+        <button type="button" id="tUbahWarna">ubah warna</button>
+        <br><br>
+        
+        <div class="kotak merah"></div>
+        <input type="range" name="merah" min="0" max="255">
+        
+        <div class="kotak hijau"></div>
+        <input type="range" name="hijau" min="0" max="255">
+        
+        <div class="kotak biru"></div>
+        <input type="range" name="biru" min="0" max="255">
+
+        <script src="script.js"></script>
+    </body>
+</html>

@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>menulis javascript</title>
+        <link rel="stylesheet" href="style.css">
+        <!-- <script>
+            var x = 10;
+        </script> -->
+    </head>
+    <body>
+        <!-- misalnya saya punya sebuah document html sederhana yang didalamnya hanya ada tulisan hello world yang saya simpan kedalam tag h1 -->
+
+        <h1>hello world</h1>
+
+        <!-- nah ceritannya disini kita akan menambahkan javascript pada document html ini 
+        
+        pertanyannya dimana kita menuliskan tag script tadi? 
+        jadi ada dua cara menuliskan javascript di halaman web kita sama seperti menuliskan css kita bisa menuliskan javascript secara internal atau eksternal 
+    
+    nah yan internal itu artiny kita menuliskan sintax javascript langsung didalam tag script dihalaman atau didocument website kita 
+
+sedangkan nanti eksternal itu artinya kita membuat file terpisah untuk menuliskan javascriptnya 
+
+nah untuk menuliskan javascript internal kita bisa menuliskant ag script itu didua tempat 
+
+jadi yang pertama kalian bisa tulis dibagiam head 
+atau nanti kalian bisa simpan didalam body 
+
+ini contohnya kalo kita simpan didalam tag head 
+<head>
+    
+    <script></script>
+</head>
+
+kalian cukup membuat tag script disini 
+nah nanti kalian bisa tuliskan saja sintax javasriptnya didalam tag script ini 
+
+oh iya kalo kalian tulis script tekan tab itu muncul atribut defaultnya seperti ini ada type
+        <script type="text/javascript"></script> seperti ini, ini opsional aja ya kalian boleh tuliskan atau tidak ya karena secara default type dari script adalah javascript 
+    
+    walaupun sebetulnya kita bisa simpan misalnya vb script ya tapi itu tidak akan kita gunakan untuk seri kali ini ya
+jadi kalo yang tidak ada atribut typenya tidak apa apa 
+
+jadi sekali lagi kita bisa simpan tag script ini didalam head tinggal nanti kalian tuliskan saja sintax javascriptnya didalam tag script contohnya  saya punya variable yang namanya x yang diisi dengan angka 10 seperti contoh diatas 
+
+jadi saya tinggal tuliskan saja sintax javascriptnya disini 
+
+itu kalo misalkan kalian simpan didalam head 
+tapi nanti diseri ini saya akan selalu simpan tag script ini didalam body saya simpan diakhir body sebelum tutupnya 
+
+nah alasannya kenapa? sebetulny kali kita simpan dihead atau dibody khusus untuk seri ini tidak akan berpengaruh ya 
+karena kita belum bekerja dengan elemen web yang ada dihalaman kita 
+
+jadi nanti elemen yang ada didalam body ini tidak terpengaruh oleh javascript kita 
+
+tapi kenapa saya simpan diakhir ini biasakan supaya seluruh elemen htmlnya it diload dulu kedalam memory baru kita jalankan javascriptnya ya 
+
+mungkin nanti ini akan lebih jelas ketika kita sudah masuk ke topik yang namanya document object model dimana kita bisa berkerja dengan elemen html didalam body 
+
+jadi untuk sekarang biasakan saja kita simpan tag scriptnya selalu diakhir sebelum tutup body 
+
+sekarang kalo document ini kita jalankan klik kana open in browser nah itu tidak akan terjadi apa apa kita baru membuat sebuah variable namanya x kita isi dengan angka 10 
+
+nah ini angka 10 tidak akan muncul tapi kalian cukup paham bahwa angka 10 itu sudah tersimpan kedalam memory 
+kalo kita lihat concolenya klik kanan inspect pilih console nah ini juga tidak muncul apa apa 
+
+ya nanti kalo kita ingin javascript menuliskan sesuatu diconsole itu nanti kita perlu menggunakan sebuah fungsi yang namanya console.log(); nah ini gunanya untuk menuliskan sesuatu kedalam console dibrowser kita 
+
+ya kan sebelumnya kita menuliskan dialam console kalo sekarang sebaliknya kita menulis dulu sesuatu difile javascript lalu kita tampilkan kedalam console ya kita coba 
+
+kalo saya kembali ke source code kita lalu dibawah saya tulis console.log lalu saya tulis saja hello world ini kalo kita save lalu kita jalankan diborser saya refresh tidak tampil apa apa didalam webnya ya karena sekali lagi kita belum bekerja dengan halaman web ini ya 
+
+tapi kita bisa lihat didalam diconsole kalian bisa lihat hello worldnya sudah muncul ya
+
+jadi nanti kita akan sering banget bekerja dengan console 
+
+nah selanjutnya kalo misalkan saya tulis lagi console.log dibawah sini 
+nanti dia akan memunculkan ini dari variable x 
+
+sekarang yang muncul ada dua ini hello world dan isi dari variable x adalah 10 paham ya 
+
+itu kalo kita menggunakan javascript yang internal -->
+
+
+
+        <!-- <script>
+            var x = 10;
+            console.log("hello world");
+            console.log("isi dari variable x adalah " +  x);
+        </script> -->
+
+        <!-- ya nanti kita akan jarang menggunakan javascript internal seperti ini ya 
+        
+        yang akan kita gunakan adalah yang javascript yang eksternalnya 
+    artinya kita akan punya sebuah file javascript terpisah untuk menuliskan sinta javascriptnya 
+
+jadi sekarang yang akan saya lakukan adalah 
+saya akan membuat file baru didalam folder yang sama namanya misalnya script.js jadi sekarang saya punya file baru file html dan file script yang masih kosong dua duanya berada difolder yang sama 
+
+nanti didalam script ini saya akan simpan sintax javascriptnya tapi sebelum file javascript ini bisa jalan kita harus menghubungkan duu kefile htmlnya persis seperti kalo kita punya file css eksternal
+
+kita cut dulu sintax javascriptnya ditaruh ke dalam difile script
+
+nah sekarang yang saya akan menghubungkan halaman html dengan script 
+
+caranya itu sama saja dengan menggunakan tag script sekali lagi simpan disebelum tutup body 
+
+tapi sekarang kita tidak akan tulis sesuatu didalam tag script ini yang perlu kita lalukan adalah menambahkan sebuah atribut baru yang namanya scr hati hati banyak yang ketuker jadi nulisnya scr ini tidak akan jalan 
+
+src artinya source ya sumbernya dari mana tinggal kita tulis saja nama filenya script.js 
+
+nah ini ati ati kalo misalkan kalian menyimpan filenya difolder yang terpisah atau tidak sama difolder htmlnya 
+
+kalian cukup tambahkan misalkan nama_folder/script.js atau kalo diatas foldernya cukup tuliskan ../script.js
+itu namanya relative url tapi karena ada didalam satu folder yang sama saya tulis langsung saja begini 
+-->
+
+
+        <script src="script.js"></script>
+
+        <!-- oke jadi sekarang halaman html ini terhubung dengan script ini  kalo kita save dua file ini kalo kita jalankan 
+        
+        nah tetap hasilnya akan sama paham ya 
+    nah nanti console juga penting ketika kalian membuat kesalahan buka kembali file script-->
+    </body>
+</html>

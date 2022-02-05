@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>javascript dan DOM: DOM Tree</title>
+    </head>
+    <body>
+        <h1>hello world</h1>
+        <p>paragraf</p>
+
+        <a href="index.html">link</a>
+
+<!-- nah ini misalkan saya punya contoh kasus sederhana seperti ini 
+    ya kalian lihat saya punya html sederhana seperti ini
+
+    dimana didalamnya ada struktur html sederhana ada head dan body 
+    didalam headnya ada title dan meta
+
+    lalu didalam bodyny ada beberapa element 
+    ada h1 yang isinya hello world 
+
+    ada paragraf dan ancor element 
+
+    nah struktur tag html ini kalo direpresentasikan dalam bentuk DOM tree itu hasilnya seperti ini 
+
+
+                                           documnt
+                                             html
+                 head                                                         body
+         title         meta       charset               h1           p                   a        href
+javascript dan DOM:                utf-8            hello world     paragraf            link   index.html
+      DOM Tree
+
+    lihat ini adalah DOM tree dari tag html tadi 
+    dimana semua elementnya itu nanti kita akan anggap sebagai node atau simpul 
+
+    simpul yang paling atas itu kita sebut dengan simpul root atau document
+
+    ya kalo kalian inget dimateri sebelumnya diatas document itu masih ada yang lain 
+    tapi itu tidak akan kita bahas 
+
+    ya kita akan fokus kedocumntnnya dulu 
+
+    lalu ada element terluarnya yaitu html 
+    dimana didalamnya ada dua element head dan body dan seterusnya 
+    
+    nah jadi ini adalah representasi DOM treenya 
+    oke sampai sini itu kita sudah bahas dimateri sebelumnya
+
+    nah yang belum kita ketahui adalah tiap tiap simpul ini atau node itu dia memiliki type 
+
+    ya jadi node pada DOM tree itu banyak typenya 
+    
+    ya kalo kalian lihat itu type typenya seperti ini 
+
+                                          documnt
+
+                                          element
+                                            html
+               element                                                       element
+                 head                                                         body
+
+        element       element     atribut             element      element          element   atribut
+         title         meta       charset               h1           p                a        href
+
+         text                       text                 text         text          text       text
+javascript dan DOM:                utf-8            hello world     paragraf 1      link   index.html
+      DOM Tree
+
+
+
+    jadi kalo kalian lihat semua element html itu typenya element 
+
+    ya kalo tulisan yang ada didalam element html contohnya hello world 
+    itu kita sebutnya text
+
+    jadi ada element node / simpul
+    ada text node / simpul yang berisi tulisan atau text 
+
+    nah lalu ada lagi 
+    kalo kalian lihat itu ada simpul atribut 
+
+    ya jadi type node untuk href ini adalah atribut
+    oke ya jadi ada banyak type nih untuk element element ini 
+
+    dan sebetulnya type typenya itu lebih banyak lagi
+    ya kalo kalian lihat itu kita punya type berikut ini 
+
+    type type node / simpul
+
+    -element 
+    -attribut
+    -text
+    -CData section
+    -entity reference
+    -entity
+    -processing instruction
+    -comment 
+    -document
+    -document type
+    -document fragment
+    -notation
+
+    itu jadi ada banyak banget ya typenya
+
+    nah tapi diseri ini kita akan fokus ditiga type saja ya 
+    yaitu ini element text dan document saja 
+
+    ya karena sebetulnya untuk atribut ini saat ini sudah ditinggalkan ya atau sudah akan dihilangkan oleh DOMnya 
+
+    karena nanti atribut akan masuk kedalam element
+    ya dia akan menjadi bagian yang tidak terpisahkan oleh element
+
+    itu jadi ini adalah type type node perlu kalian pahami walaupun yang akan kita fokus hanya ditiga type itu saja
+
+    oke jadi itu yang pertama yang akan dibahas dimateri kali ini 
+
+    kita hanya akan membahas mengenai istilah istilah pada DOM tree saja 
+
+    selanjutnya ada dua istilah yang harus kalian pahami
+
+    yaitu mengenai Node list dan HTMLCollection
+
+    apa yang dimaksut dengan dua hal ini?
+    nanti kita lihat ya
+
+
+
+    coba kita kembali kekasus DOM tree
+    kalian tahu kan kalo salah satu simpul ini 
+
+    yang manapun ya kita pilih saja salah satu 
+    misalnya element p itu kita sebut sebagai node 
+
+    yang manapun selama kita pilih satu itu kita sebut sebagai node
+    nanti tergantung jenis node apa yang akan kita pilih 
+    kalo p berarti dia element typenya
+
+    nah jika kita memilih lebih dari satu node itu kita sebut dengan node list
+    tidak peduli type nodenya apa
+
+    sedangkan HTMLCollection itu adalah kumpulan node tapi khusus yang typenya element html saja 
+
+    nah nanti perbedaan ini akan menentukan cara mengelolanya 
+    ya karena cara mengelolanya sedikit berbeda
+
+    gitu ya jadi sampai disini ada beberapa istilah yang sudah kita pelajari tadi 
+
+    ada type node lalu ada type dari kumpulan node 
+    ada node list ada HTMLCollection
+
+    sekarang kita lihat penjelasan lebih detilnya ya
+
+
+
+
+
+    Node list  dan HTMLCollection
+
+
+     1.keduanya merupakan kumpulan node / simpul 
+       node list dan HTMLCollection itu sebetulnya keduanya merupakan kumpulan node  / simpul
+       
+     2.struktur datanya mirip array
+       nah kumpulan node ini representasinya mirip dengan array
+
+       jadi array itu adalah sebuah variable yang memiliki lebih dari satu nilai
+       node list dan HTMLCollection ini adalah array yang isinya object object gitu ya
+
+       walaupun sebetulnya mereka bukan array karena ada beberapa perilaku array yang tidak bisa diterapkan didua ini 
+
+       tapi intinya dia mirip array
+
+
+      3.node list dapat berisi node apapun sedangkan HTMLCollection harus berisi element html
+        jadi begitu isinya html semua dia typenya jadi HTMLCOllection
+
+        tapi begitu ada satu saja yang bukan element html dia typenya node list
+
+        nah nanti bedanya disini
+
+      4.HTMLCollection bersifat live sedangkan node list tidak
+        nah ini penting ketika kita sudah belajar mengenai manipulasi DOM 
+
+        untuk sekarang sementara kalian terima dulu bahwa HTMLCollection itu bersifat live sedangkan node list tidak
+
+    
+
+  oke selanjutnya kita akan bahas mengenai struktur herarki DOM tree
+
+  nah ini juga cukup penting karane sekali lagi semua node yang ada didalam DOM tree itu saling terhubung 
+
+  dan kita harus paham betul mengenai hubungan atau relasi antar DOM tersebut
+
+  supaya ketika kita masuk ketopik penelusuran DOM itu kalian tidak kebingungan lagi bagaimana cara menelusurinya
+
+  struktur herarki ini mirip banget dengan silsilah keluarga
+  ya konsep silsilah keluarga mirip dengan child dan parent begitu
+
+  coba kita lihat 
+  kalo kita balik lagi kekasus kita yang ini 
+
+
+  
+                                           documnt
+                                             html
+                 head                                                         body
+         title         meta       charset               h1           p                   a        href
+javascript dan DOM:                utf-8            hello world     paragraf            link   index.html
+      DOM Tree
+
+
+  ya semua elementnya saling terhubung 
+  nah struktur herarkinya itu seperti ini 
+
+  1.root node
+    ada yang disebut dengan root node
+    ya atau node yang menjadi sumber dari semua node lain didalam DOM
+
+    yang secara default node tersebut adalah document
+  
+  2.parent node
+    lalu ada yang disebut dengan parent node 
+    atau node orang tua begitu ya 
+
+    nah begitu kita masuk kedalam konsep parent dan child 
+    itu nanti tergantung gimana kita melihat node yang akan kita pilih
+
+    tapi intinya parent node itu adalah node yang berada satu tingkat lebih tinggi diatas node lain
+    jadi kalo dikasus sebelumnya itu body adalah parent dari h1 p dan a
+
+    itu ya jadi kita lihatnya dari sebuah elementnya 
+    oke jadi sebuah element itu bisa jadi parent bisa jadi child 
+
+    tapi kalo misalnya dua tingkat itu ada yang disebut dengan grand parent 
+    kalo lebih dari dua tingkat itu kita sebutnya dengan unsestor / nenek moyang
+
+    tapi yang kita pedulikan hanya yang parentnya saja 
+
+    karena kalo kita mau menelusuri keatas ya kita tingga cari saja parent dari parent begitu 
+
+  
+  3.child node
+
+    oke lalu ada lagi child node 
+    kalo ini kebalikannya dari parent node
+
+    dia adalah node yang berada satu tingkat dibawah node yang lain
+
+    contohnya h1 itu adalah child dari body 
+
+    dan child node ini tidak peduli type nodenya apa
+    itu berlaku child node ini 
+
+
+    nah nanti kalian juga akan kenal mengenai konsep childern itu lebih spesifik 
+    dia adalah child node yang bertype element html 
+
+    terus ada lagi yang disebut dengan siblings atau saudara kandung
+    nah itu adalah child node yang memiliki parent yang sama 
+
+    nah sekarang bagaimana kalo dua tingkat kebawah / cucu ya
+    nah itu ada lagi yang disebut dengan descenden
+
+    nah descenden itu artinya keturunan jadi itu termasuk dengan anak cucu dan terus kebawahnya itu masuk kedalah descenden
+
+    ya tapi intinya yang kita pedulikan hanya 3 ini saja 
+    ada root node 
+    parent node dan
+    child node
+
+    ya itu harus kalian pahami dulu minimal konsepnya 
+    sehingga kalian nanti tidak kebinguangan lagi ketika kita sudah masuk ketopik topik selanjutnya
+
+
+  oke jadi mungkin itu saja ya 
+  kita hanya membahas istilah atau terminologi didalam DOM tree yang saya belum sebutkan didalam materi sebelumnya
+
+
+  supaya nanti dimateri berikutnya ketika kita langsung masuk kedalam codingnya kalian sudah tidak bingung lagi mengenai konsepnya 
+
+  oke jadi mungkin itu saja untuk materi kali ini 
+  kita ketemu lagi dimateri selanjutnya 
+
+  dan satu lagi jangan lupa titik koma ;   -->
+
+
+
+
+
+        <script src="latihan.js"></script>
+    </body>
+</html>
