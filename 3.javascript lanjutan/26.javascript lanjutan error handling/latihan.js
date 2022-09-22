@@ -223,7 +223,7 @@ nah kalian bisa check statusnya atau okny a
 */
 
 function get_movies(key){
-    return fetch(`ttp://www.omdbapi.com/?apikey=2dd838b4&s=${key}`)
+    return fetch(`http://www.omdbapi.com/?apikey=2dd838b4&s=${key}`)
             .then(resp => {
                 if(!resp.ok){
                     // nah kalo gagal kita akan bikin eror untuk dilempar 
