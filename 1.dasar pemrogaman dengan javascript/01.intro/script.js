@@ -47,7 +47,8 @@ apa maksutnya? teliti disini maksutnya pada saat kita menuliskan code itu kita t
 akan jadi masalah, nah disitu kita belajar teliti untuk menuliskan baris baris code kita lalu kita juga diajarkan untuk disiplin karena tiap tiap bahasa
 pemrogaman punya aturan yang berbeda beda dalam menuliskan code mereka jadi kita harus mengikuti aturan yang diberiakn oleh bahasa tersebut
 
-lalu mengajar kita kita untuk berfikir abstrak, abstrak disini bukan maksutnya kita berfikir yang mengawam ngawam, abstrak disini adalah untuk menyembunyikan kerumitan atau komplexsitas pada saat kita memandang sebuah masalah.
+lalu mengajar kita kita untuk berfikir abstrak, abstrak disini bukan maksutnya kita berfikir yang mengawam ngawam, abstrak disini adalah untuk
+menyembunyikan kerumitan atau komplexsitas pada saat kita memandang sebuah masalah.
 
 lalu selanjutnya dengan belajar bahasa progam kita juga dapat mengubah komputer yang tadinya hanya tools yang kita gunakan untuk berinteraksi dengan internet 
 dengan aplikasi nah sekarang kita bisa mengubah alat tersebut  menjadi tools yang sangat powerfull untuk apa? untuk tadi menyelesaikan masalah yang ada, 
