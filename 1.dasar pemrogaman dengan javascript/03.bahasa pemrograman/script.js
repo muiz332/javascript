@@ -65,7 +65,8 @@ untuk mulai menulis progam source code atau statement ada tiga hal yang harus ka
 sekarang kita bahas dulu bagian yang pertama adalah menuliskan source code 
 jadi bahasa pemrograman itu ditulis dengan menggunakan sebuah text sederhana atau yang disebut dengan plain text
 
-untuk menuliskan source code ini kalian bisa menggunakan text editor sederhana yang biasanya sudah ada didalam sisten operasi kalian contohnya jika menggunakan windows itu ada yang namannya notpad atau kalo kalian menggunakan mac itu ada yang namanya text edit 
+untuk menuliskan source code ini kalian bisa menggunakan text editor sederhana yang biasanya sudah ada didalam sisten operasi kalian contohnya 
+jika menggunakan windows itu ada yang namannya notpad atau kalo kalian menggunakan mac itu ada yang namanya text edit 
 
 jadi ini adalah text editor sederhana yang sebetulnya sudah cukup untuk membuat progam atau menuliskan source code karena sebetulnya sorce code itu adalah 
 sebuah text sederhana saja seprti kalian menuliskan file txt 
