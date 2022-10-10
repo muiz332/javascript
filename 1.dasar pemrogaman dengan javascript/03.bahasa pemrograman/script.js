@@ -138,7 +138,8 @@ lalu ada yang disebut dengan IDE (intregrated development environment)
 ini sebetulnya sama dengan code editor tetapi memiliki fitur yang lebih lengkap dan lebih komplex lagi  
 contohnya Xcode, visual studio code, Eclipce, PHP stom dan lain lain 
 
-jadi meskipun source code itu bisa ditulis menggunakan text editor sederhana seperti notpad nantinya kalian juga butuh code editor untuk mempermudah kalian menuliskan source code 
+jadi meskipun source code itu bisa ditulis menggunakan text editor sederhana seperti notpad nantinya kalian juga butuh code editor untuk 
+mempermudah kalian menuliskan source code 
 
 itu baru kita bicara mengenai source code tentang bagaimana carannya kita menuliskan source code 
 
