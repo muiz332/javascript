@@ -29,7 +29,8 @@ si B jika menggunakan compiler maka ini yang akan terjadi
 jadi yang pertama si A akan membuat source code dia ngoding nah nanti si A ini akan mengcompile source code tersebut menggunakan sebuah compailer
 tergantung bahasa pemrogamannya apa pake compailer apa 
 
-nah nanti setelah dicompilasi maka akan menghasilkan sebuah file baru dan file baru ini file hasil compilasinya akan diberikan kepada si B, hasil compilasii ini biasanya dinamakan dengan file executable atau progam yang sudah bisa dieksekusi 
+nah nanti setelah dicompilasi maka akan menghasilkan sebuah file baru dan file baru ini file hasil compilasinya akan diberikan kepada si B, 
+hasil compilasii ini biasanya dinamakan dengan file executable atau progam yang sudah bisa dieksekusi 
 
 nah nantinya setelah si B menjalankan progamnya maka progamnya bisa dilihat oleh si B, nah si B tidak perlu memiliki compiler lagi dan si B itu tidak
 akan pernah meihat source code yang diberikan oleh si A jadi si B hannya menjalankan saja progam yang sudah diberi si A, source codenya tetap ada 
@@ -52,7 +53,8 @@ jadi misalkan yang error ada dibaris ke 10, code sebelum baris ke 10 itu akan te
 dijalankan
 
 nah contoh yang sering kalian alami adalah ketika kalian membuka sebuah website, hampir semua website yang ada sekarang itu ada source code javascript
-didalamnnya ketika websitenya kalian aksess sebetulnya ada sebuah interpreter yang terdapat diweb browser kalian yang gunanya untuk menterjemahkan javascript tadi menjadi sebuah progam atau perintah perintah 
+didalamnnya ketika websitenya kalian aksess sebetulnya ada sebuah interpreter yang terdapat diweb browser kalian yang gunanya untuk 
+menterjemahkan javascript tadi menjadi sebuah progam atau perintah perintah 
 
 jadi itulah interpreter dan compiler 
 nah kira kira menurut kalian lebih baik mana? jadi masing masing memiliki kelebihan dan kekurangan 
@@ -69,13 +71,17 @@ kelebihannya
       ada diprogammernya 
 
 kekurangannya 
-    1.tidak lintas plaform, maksutnya tidak lintas sistem operasi karena begitu dicompile hasil compilenya itu hanya akan compatible untuk sistem oparasi tertentu bahkan ketika sistem operasinya sama tapi cpunya berbeda atau prosesornya berbeda ada kemungkinan progamnya tidak jalan jadi harus dicompile ulang 
-    2.tidak fleksible, karena ketika ada kesalahan atau kalian ingin memodifikasi progamnya kalian harus melakukan compile ulang karena compile adalah langkah tambahan setelah kalian ngoding 
+    1.tidak lintas plaform, maksutnya tidak lintas sistem operasi karena begitu dicompile hasil compilenya itu hanya akan compatible untuk sistem
+     oparasi tertentu bahkan ketika sistem operasinya sama tapi cpunya berbeda atau prosesornya berbeda ada kemungkinan progamnya tidak jalan jadi 
+     harus dicompile ulang 
+    2.tidak fleksible, karena ketika ada kesalahan atau kalian ingin memodifikasi progamnya kalian harus melakukan compile ulang karena compile 
+     adalah langkah tambahan setelah kalian ngoding 
     3.langkah tambahan 
 
 interpreter
 kelebihannya 
-    1.lintas platform, jadi tidak peduli sistem operasinya apa asalkan user punya interpreternya source codenya akan bisa dijalankan selama user punya web browsernya javascriptnya 
+    1.lintas platform, jadi tidak peduli sistem operasinya apa asalkan user punya interpreternya source codenya akan bisa dijalankan selama 
+     user punya web browsernya javascriptnya 
     2.fleksible karena tidak perlu melakukan compile ulang jadi mudah untuk dimodifikasi dan mudah untuk diuji
     3.mudah untuk diuji 
 
@@ -91,7 +97,8 @@ nah ternyata ada beberapa bahasa yang menggabungkan kedua tehnik tersebut, tekni
 menyebut dengan intermedia language jadi dia menggabungkan kelebihanya compiler dan menggabungkan kelebihannya interpreter 
 
 nah cara kerjannya kurang lebih seprti ini 
-si A membuat source code saat dia sudah selesai dibuat dia melakuakn compile tapi setelah dicompile dia tidak menghasilkan file executable melainkan file yang namanya intermedia language/byte code jadi ini hasil compilenya belum executable 
+si A membuat source code saat dia sudah selesai dibuat dia melakuakn compile tapi setelah dicompile dia tidak menghasilkan file executable 
+melainkan file yang namanya intermedia language/byte code jadi ini hasil compilenya belum executable 
 
 nah intermedia language ini sudah cukup teroptimasi untuk bahasa mesin dan pada umumnya dia cross platform, jadi pada umumnya dia bisa dijalankan
 disemua sistem operasi, jadi ini kelebihan dari compiler dan interpreter sudah digabungkan 
