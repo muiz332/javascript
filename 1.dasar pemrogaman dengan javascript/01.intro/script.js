@@ -32,7 +32,8 @@ tapi kalo misalkan kalian pengen belajar dulu mengenai html dan css dichannel we
 lalu selanjutnya sistem operasi apa yang harus kalian gunakan? nah ini memakai apa saja boleh yang penting kalian harus memiliki web browser 
 disitem operasi atau dikomputer kalian masing-masing
 
-lalu juga mengenai latar belakang kalian jadi tidak peduli kalian itu siapa siswa smp mahasiswa baik itu yang memiliki latar belakang IT maupun tidak silahkan kalian boleh mengukuti seri ini nah karena siapapun bisa belajar bahasa pemrogaman tidak harus seseorang yang mempunya latar belakang IT.
+lalu juga mengenai latar belakang kalian jadi tidak peduli kalian itu siapa siswa smp mahasiswa baik itu yang memiliki latar belakang IT maupun tidak
+silahkan kalian boleh mengukuti seri ini nah karena siapapun bisa belajar bahasa pemrogaman tidak harus seseorang yang mempunya latar belakang IT.
 
 jadi intinya siapapun berhak untuk belajar pemrogaman atau lebih baik siapaun sebaiknya belajar pemrogaman, nah kenapa? karena dengan kita belajar bahasa 
 pemrograman kita juga akan mendapatkan manfaat yang lain seperti yang pernah dikemukakan orang yang terkenal didunia steve jobs pernah bilang bahwa dengan 
@@ -42,8 +43,9 @@ mark zuckerbreg pernah bilang bahwa nanti kedepannya beberapa tahun lagi semua a
 kalo kita memiliki skill coding maka kita akan leluasa untuk berkarya membuat sebuah aplikasi yang akan menyelesaikan banyak masalah, jadi kesimpulannya 
 belajar bahasa pemrogaman itu banyak manfaatnya salah satunya adalah pemrogaman mengajarkan kita untuk belajar teliti, disiplin, dan berfikir abstrak, 
 
-apa maksutnya? teliti disini maksutnya pada saat kita menuliskan code itu kita tidak boleh salah satu karakterpun, kurang titik, kurang titik koma itu akan jadi masalah, nah disitu kita belajar teliti untuk menuliskan baris baris code kita lalu kita juga diajarkan untuk disiplin karena tiap tiap bahasa pemrogaman punya 
-aturan yang berbeda beda dalam menuliskan code mereka jadi kita harus mengikuti aturan yang diberiakn oleh bahasa tersebut
+apa maksutnya? teliti disini maksutnya pada saat kita menuliskan code itu kita tidak boleh salah satu karakterpun, kurang titik, kurang titik koma itu 
+akan jadi masalah, nah disitu kita belajar teliti untuk menuliskan baris baris code kita lalu kita juga diajarkan untuk disiplin karena tiap tiap bahasa
+pemrogaman punya aturan yang berbeda beda dalam menuliskan code mereka jadi kita harus mengikuti aturan yang diberiakn oleh bahasa tersebut
 
 lalu mengajar kita kita untuk berfikir abstrak, abstrak disini bukan maksutnya kita berfikir yang mengawam ngawam, abstrak disini adalah untuk menyembunyikan kerumitan atau komplexsitas pada saat kita memandang sebuah masalah.
 
