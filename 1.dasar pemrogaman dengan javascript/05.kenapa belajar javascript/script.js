@@ -16,7 +16,8 @@ tapi kenapa kita pilihnya javascript? kita lihat beberapa alasan berikut ini
     javacript hanya butuh web browser, artinya selama kalian punya web browser kalian sudah bisa membuat dan menjalankan javascript, jadi 
     cukup simple apalagi untuk kita yang baru belajar pemrogaman 
 
-kita tidak perlu repot repot instal dan konfigurasi seperti misalnya php yang mengharuskan kita menginstal web server atau c yang mengharuskan kita menginstal compiler atau python yang mengharuskan kita sedikit konfigurasi pada sistem kita 
+kita tidak perlu repot repot instal dan konfigurasi seperti misalnya php yang mengharuskan kita menginstal web server atau c yang mengharuskan 
+kita menginstal compiler atau python yang mengharuskan kita sedikit konfigurasi pada sistem kita 
 
 alasan ini saja sudah cukup untuk kita sebagai pemula yang baru belajar pemogaman untuk memilih javascript sebagai bahasa pemrogaman 
 pertamanya, tapi kita lihat lagi alasannya 
@@ -136,7 +137,8 @@ kalian bisa lihat dia mengalahkan bahasa bahasa pemrogaman yang lain
 kalo kalian belum tahu stackoverflow.com ini adalah website yang keren sekali apa lagi kalo kalian adalah progammer pasti website ini 
 adalah website yang sering kalian kunjungi kalo mau mencari solusi kalo misalknya progam kalian error 
 
-nah selain itu juga didalam javascript itu dukungan framework dan librariesnya banyak sekali bahkan hampir semua atau apapun itu ada libraries javascriptnya dan seperti yang saya bilang tadi komunitasnya itu besar termasuk di indonesia 
+nah selain itu juga didalam javascript itu dukungan framework dan librariesnya banyak sekali bahkan hampir semua atau apapun itu ada 
+libraries javascriptnya dan seperti yang saya bilang tadi komunitasnya itu besar termasuk di indonesia 
 
 kalian bisa saja gabung grub grub difacebook atau kalian bisa cari sendiri komunitas komunitas yang banyak banget 
 jadi itu asalannya kenapa kita pilih javascript sebagai bahasa pemrogaman yang nantinya akan kita pelajari 
@@ -147,8 +149,9 @@ nah banyak baget yang bisa kita bikin dari javascript ini
 berikut ini adalah beberapa contohnya yang bisa dilakukan oleh javascript adalah 
 client-side web development atau membuat dan mendukung pembuata aplikasi web dari sisi client 
 
-kalian bisa menggunakan apa yang disebut dengan native javascript atau yang dikenal juga dengan nama valila javascript atau kata orang kita itu javascript biasa maksutnya javascript yang tanpa menggunakan libraries atau framework, nah ini yang nantinya akan kita penlajari, jadi javascript 
-yang native 
+kalian bisa menggunakan apa yang disebut dengan native javascript atau yang dikenal juga dengan nama valila javascript atau kata orang kita 
+itu javascript biasa maksutnya javascript yang tanpa menggunakan libraries atau framework, nah ini yang nantinya akan kita penlajari, jadi 
+javascript yang native 
 
 atau kalian juga bisa mengembangkan web dengan menggunakan framework seperti JQuery atau yang sekarang yang sedang popular ada yang dinamakan 
 dengan angular js, react, ember, backbone dan lain lain
