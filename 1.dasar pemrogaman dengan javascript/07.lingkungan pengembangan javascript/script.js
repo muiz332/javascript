@@ -53,4 +53,15 @@ nah selanjutnya ada dua cara agar kita dapat berinterasi dengan interpreter java
 
 /*jadi itu adalah dua hal yang bisa kita lakukan untuk berinteraksi dengan javascriptnya 
 
-nah untuk beberapa materi kedepan yang kita gunakan adalah yang console dulu sebelum nantinya kita benar benar membuat script javascriptnya meungkin sampai disini dulu materi kali ini singkat saja kita bertemu lagi dimateri berikutnya dan satu lagi jangan lupa titik koma ; */
+nah untuk beberapa materi kedepan yang kita gunakan adalah yang console dulu sebelum nantinya kita benar benar membuat script javascriptnya 
+mungkin sampai disini dulu materi kali ini singkat saja kita bertemu lagi dimateri berikutnya 
+dan satu lagi jangan lupa titik koma ; 
+
+
+
+
+from 
+web programming unpas
+
+
+*/
