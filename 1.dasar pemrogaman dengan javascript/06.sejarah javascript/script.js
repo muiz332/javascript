@@ -21,7 +21,9 @@ itu jadi simozac ini melanggar spesifikasi yang diberikan jadi browser browser s
 setelah mozaic ini meraih popularitas akhirnya dua orang yang membuat peneliti mozaic ini beserta mahasiswa tadi dia membuat perusaahaan sendiri 
 yang namanya netscape comunicator atau yang sekarang jadi mozila dan mereka membuat kembali sebuah browser yang namanya netscape navigator \
 
-nah netscape ini dibuat dengan fitur fitur yang lebih baik dari mozaic dan tentu saja tidak memperdulikan lagi spesifikasi dari team bernesli seperti menambahkan tag bling yang bisa membuat tulisan itu menjadi kedip kedip misalnya terus menambahkan tag formating menambahkan scripting cookie dan lain lain jadi fasilitasnya cukup banyak
+nah netscape ini dibuat dengan fitur fitur yang lebih baik dari mozaic dan tentu saja tidak memperdulikan lagi spesifikasi dari team bernesli 
+seperti menambahkan tag bling yang bisa membuat tulisan itu menjadi kedip kedip misalnya terus menambahkan tag formating menambahkan scripting 
+cookie dan lain lain jadi fasilitasnya cukup banyak
 
 nah setelah beberapa waktu si netscape ini bermaksut untuk membuat browser netscape navigation ini tamabah keren lagi jadi dia ingin menambahkan
 interaktifitas pada browsernya seperti misalnya pada saat user menekan tombol atau pada saat user mengisikan input atau interaksi yang lain 
