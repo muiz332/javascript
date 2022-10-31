@@ -71,13 +71,14 @@ nanti kalian punya dasar yang kuat ketika kalian bertemu dengan bahasa pemrogama
 mirip mirip masing masing punya yang namanya pengulangan masing masing punya yang namanya pengkondisian 
 
 jadi dengan membahas dasar dai pemrogamannya itu akan membuat kalian lebih mudah ketika ketemu dengan bahasa pemrogamn yang lain 
-oke jadi begitu selamat datang diseri ini kita akan bertemu lagi selanjutnya masih bersama saya M.Mu'izzuddin tetap semangat belajarnya 
-tetap semangat ngodingnya dan satu lagi jangan lupa titik koma  
+oke jadi begitu tetap semangat belajarnya 
 
 
 
-from  :
-web programming unpas
+-----------------------------------
 
+source web programming unpas
+
+-----------------
 
 */
