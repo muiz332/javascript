@@ -91,8 +91,9 @@ bikin variable yang namanya x lalu enter kalian tidak usah perdulikan terlebih d
 var x 
 undefined
 
-selanjutnya jika kita kita menuliskan x = 10 dibawahnya ini artinya saya akan menugaskan angka 10 untuk berada didalam variable x , jadi meskipun symbolnya adalah = ini bukan membandingkan, didalam pemrogaman artinya menugaskan operand yang sebelah kanan (10) kedalam operan yang sebelah kiri 
-(x) dari = kalo saya pencet enter dia akan mengembalikan angka 10 
+selanjutnya jika kita kita menuliskan x = 10 dibawahnya ini artinya saya akan menugaskan angka 10 untuk berada didalam variable x , jadi 
+meskipun symbolnya adalah = ini bukan membandingkan, didalam pemrogaman artinya menugaskan operand yang sebelah kanan (10) kedalam operan 
+yang sebelah kiri (x) dari = kalo saya pencet enter dia akan mengembalikan angka 10 
 
 x = 10
 10
