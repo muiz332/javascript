@@ -92,7 +92,10 @@ saja tuliskan tulisannya didalam sebuah kutip bisa kutip 1 atau kutip 2
 nanti javascriptlah yang akan melakukan perubahan nilai nilai ini bit bit dalam komputer kalian, jadi kita tidak usah khawatir bagaimana cara 
 merubahnya nah nanti setiap nilai yang kita buat itu akan tersimpan di sebuah tempat dikomputer umumnya tersimpannya didalam RAM 
 
-jika kita nanti membuat atau membutuhkan nilai yang sangat besar dalam satu waktu tertentu mungkin saja kita kehabisan bit karena memory itu ada kapasitasnya, untungnya ini hannya terjadi ketika membutuhkan semua bitnya secara simultan atau dalam satu waktu yang bersamaan dan itu hampir 
+jika kita nanti membuat atau membutuhkan nilai yang sangat besar dalam satu waktu tertentu mungkin saja kita kehabisan bit karena memory itu ada
+kapasitasnya
+
+untungnya ini hannya terjadi ketika membutuhkan semua bitnya secara simultan atau dalam satu waktu yang bersamaan dan itu hampir 
 tidak mungkin setidaknya untuk kasus kita nantinya 
 
 jadi tidak usah khawatir kehabisa memory dan lagi sekarang komputer komputer atau laptop laptop yang ada itu memorynya itu sudah sangat besar 
