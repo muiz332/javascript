@@ -34,7 +34,9 @@ begitu pula dengan angka yang lainnya jadi javascript akan mengembalikan angka y
 
 nah jika kita memasukkan angkanya cukup besar lebih dari 15 digit nah nanti kalian akan lihat ada perubahan angka 
 
-kalo misalkan saya memasukkan angka 9 sebanyak 15 digit maka akan dikembalikan bilangan yang sama tapi lihat ketika saya masukkan angka 9nya sebanyak 16 digit kalo saya pencet enter akan ada pembulatan jadi meskipun yang kita tulis adalah bilangan bulat yang diproses adalah bilangan pecahan 1/0
+kalo misalkan saya memasukkan angka 9 sebanyak 15 digit maka akan dikembalikan bilangan yang sama tapi lihat ketika saya masukkan angka 9nya 
+sebanyak 16 digit kalo saya pencet enter akan ada pembulatan jadi meskipun yang kita tulis adalah bilangan bulat yang diproses 
+adalah bilangan pecahan 1/0
 
 jadi tadi bilangan pecahannya sudah cukup untuk membulatkan menjadi angka yang berbeda jadi itu yang harus diperhatikan
 tapi sebetulnya kalian tidak usah khawatir dengan hal ini, apa lagi jika kalian membuat aplikasi yang tidak membutuhkan angka dengan 
