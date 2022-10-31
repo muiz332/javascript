@@ -51,9 +51,9 @@ jadi menggunakan operator logika AND ya
 const b = null
 
 if(b){
-    console.log('iyaaa')
+    console.log(b)
 }else{
-    console.log('apa')
+    console.log('iya')
 }
 
 // kalian bisa singkat seperti ini
