@@ -43,14 +43,16 @@ ini contohnya
 
 'kami sedang mengadakan kegiatan "Gerakan Pungut Sampah"'
 
-didalam stringnya misalkan ada tulisan "Gerakan Pungut Sampah" yang dibungkus dengan kutip dua nah keseluruhan string ini sebaiknya kalian bungkus dengan kutip satu supaya tidak eror 
+didalam stringnya misalkan ada tulisan "Gerakan Pungut Sampah" yang dibungkus dengan kutip dua nah keseluruhan string ini sebaiknya kalian 
+bungkus dengan kutip satu supaya tidak eror 
 
 tapi nanti kalian pasti menemukan keadaan dimana kalian akan membutuhkan keduanya dalam sebuah string 
 contohnya seperti ini 
 
 '"Gerakan Pungut Sampah" dilaksanakan pada hari jum'at'
 
-nah jika kalian ingin menuliskan kutip dua dan kutip satu dalam sebuah string, kalian tidak bisa membungkusnya dengan menggunakan kutip satu seperti yang diatas itu ya, kalian bisa lihat ada kutip satunya ada kutip duanya 
+nah jika kalian ingin menuliskan kutip dua dan kutip satu dalam sebuah string, kalian tidak bisa membungkusnya dengan menggunakan kutip 
+satu seperti yang diatas itu ya, kalian bisa lihat ada kutip satunya ada kutip duanya 
 
 nah begitu juga sebaliknya kalo kita bungkus ini dengan kutip dua
 
