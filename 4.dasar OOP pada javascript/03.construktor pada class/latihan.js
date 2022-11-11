@@ -61,5 +61,19 @@ kalo kita jakankan
 akan tampil ya 
 
 jadi seperti itu cara membuat properti didalam class
+mudah mudahan kalian paham
+
+
+
+
+
+
+
+-----------------------------------
+
+source programmer zaman now mysql
+
+-----------------
+
 
 */

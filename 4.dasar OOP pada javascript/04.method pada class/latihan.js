@@ -69,4 +69,18 @@ jadi methodnya akan masuk kedalam prototypenya ya
 dengan menggunakan class kita lebih mudah untuk 
 membuat constructor object
 
+mudah mudahan kalian paham
+
+
+
+
+
+
+-----------------------------------
+
+source programmer zaman now mysql
+
+-----------------
+
+
 */

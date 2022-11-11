@@ -67,4 +67,16 @@ seperti itu
 
 nah bagiamana cara mengatasi hal tersebut?
 
+
+
+
+
+
+
+-----------------------------------
+
+source programmer zaman now mysql
+
+-----------------
+
 */

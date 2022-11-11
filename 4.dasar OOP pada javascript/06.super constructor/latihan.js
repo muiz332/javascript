@@ -161,4 +161,21 @@ maka akan tampil
 hallo nama saya muiz
 umur saya 18 tahun dan saya jurusan Teknik Informatika
 
+jadi seperti itu ya super contructor 
+mudah mudahan kalian paham
+
+
+
+
+
+
+
+
+-----------------------------------
+
+source programmer zaman now mysql
+
+-----------------
+
+
 */

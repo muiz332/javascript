@@ -81,7 +81,25 @@ itu prototype yang berjalan
 jadi sebenarnya tidak ada bedanya cuma ini adalah cara penulisan yang
 baru dan lebih rapi
 
+mudah mudahan kalian paham
 
+
+
+
+
+
+
+
+
+
+
+
+
+-----------------------------------
+
+source programmer zaman now mysql
+
+-----------------
 
 
 */
