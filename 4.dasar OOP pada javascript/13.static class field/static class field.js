@@ -74,3 +74,25 @@ console.log(Configuration.reference)
 
 Configuration.version = '2.0.0'
 console.log(Configuration.version)
+
+
+/*
+
+jadi itu materi mengenai static class field 
+mudah mudahan kalian paham
+
+
+
+
+
+
+
+
+-----------------------------------
+
+source programmer zaman now mysql
+
+-----------------
+
+
+*/
