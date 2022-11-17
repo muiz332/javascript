@@ -72,11 +72,11 @@ nah bagiamana cara mengatasi hal tersebut?
 
 
 
-
 -----------------------------------
 
-source programmer zaman now mysql
+source programmer zaman now javascript OOP
 
 -----------------
+
 
 */
