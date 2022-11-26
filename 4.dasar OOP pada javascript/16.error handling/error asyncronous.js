@@ -1,10 +1,10 @@
-// error asyncronous
+// error handling
 
 
 /*
 
 
-sekarang kita akan membahas mengenai error secara asyncronous atau non blocking ya
+sekarang kita akan membahas mengenai error handling yang menjalankan program dibawahnya
 saat terjadi error ada kalanya kita tidak ingin program kita berhenti 
 
 nah didalam javascript itu kita bisa menangkap jika terjadinya error
